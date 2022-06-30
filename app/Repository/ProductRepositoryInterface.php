@@ -1,6 +1,6 @@
 <?php 
 namespace App\Repository;
 
-interface ProductRepositoryInterface extends EloquentRepositoryInterface  {
+interface ProductRepositoryInterface extends BaseRepositoryInterface  {
 
 }

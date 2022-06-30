@@ -2,7 +2,7 @@
 
 namespace App\Repository;
 
-interface EloquentRepositoryInterface {
+interface BaseRepositoryInterface {
 
     public function get(array $relations = []);
 
